@@ -7,6 +7,12 @@ declaration changes, then lists likely local consumers and test-path
 references. It never imports, executes, edits, uploads, or sends repository
 content anywhere.
 
+![Conceptual illustration of ContractTrail tracing a changed declaration to callers and tests](assets/contracttrail-concept.jpg)
+
+*Conceptual AI-generated workflow illustration: a changed declaration is traced
+to likely callers and tests so a developer can focus review effort. The
+reproducible terminal demonstration below is the actual CLI output.*
+
 ![Reproducible terminal demo](assets/contracttrail-demo.svg)
 
 ## Why
