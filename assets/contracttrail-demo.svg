@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="470" viewBox="0 0 1000 470" role="img" aria-label="ContractTrail terminal demonstration">
+  <rect width="1000" height="470" fill="#111827"/><rect x="28" y="25" width="944" height="420" rx="14" fill="#0b1220" stroke="#334155"/>
+  <circle cx="57" cy="53" r="8" fill="#fb7185"/><circle cx="82" cy="53" r="8" fill="#fbbf24"/><circle cx="107" cy="53" r="8" fill="#34d399"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="21" fill="#dbeafe">
+    <text x="58" y="105" fill="#86efac">$ python3 contracttrail.py scan . --patch change.patch</text>
+    <text x="58" y="151" fill="#f8fafc"># ContractTrail receipt</text>
+    <text x="58" y="185">- Declaration changes: 2</text>
+    <text x="58" y="235" fill="#93c5fd">## added `fetch_user` — `src/api.py`</text>
+    <text x="58" y="269">- Likely consumers: 2; test-path references: 2</text>
+    <text x="58" y="303" fill="#fcd34d">- consumer `src/use.py:2` — fetch_user(3)</text>
+    <text x="58" y="337" fill="#86efac">- test `tests/test_api.py:2` — def test_user(): fetch_user(3)</text>
+    <text x="58" y="393" fill="#94a3b8">Local-only · no execution · review lead, not proof</text>
+  </g>
+</svg>
