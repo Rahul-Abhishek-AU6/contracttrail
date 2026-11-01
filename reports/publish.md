@@ -5,4 +5,4 @@
 - [x] MIT license
 - [x] README with limitations and install/run instructions
 - [x] Truthful, reproducible terminal-demo SVG referenced from README
-- [ ] Public repository URL (record after push)
+- [x] Public repository: https://github.com/Rahul-Abhishek-AU6/contracttrail
